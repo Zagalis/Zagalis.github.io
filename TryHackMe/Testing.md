@@ -8,4 +8,16 @@
 
 Testing if this is done correctly
 
+### System Enumeration
+
+```bash
+find / -user tyler 2>/dev/null
+find / -user root -perm -4000 — exec ls -ldb {} \;
+strings <filename>
+find / -name "autoscript.sh"
+```
+
+```bash
+id
+```
 
